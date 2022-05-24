@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+</head>
+
+<body>
+    <h1>Lazy Loading</h1>
+    <p>Lazy loading is a strategy to identify resources as non-blocking (non-critical) and load these only when needed.
+        It's a way to shorten the length of the critical rendering path, which translates into reduced page load times.
+
+        Lazy loading can occur on different moments in the application, but it typically happens on some user
+        interactions such as scrolling and navigation.</p>
+    <img data-src="">
+    <p>As the web has evolved, we have come to see huge increases in the number and size of assets sent to users.
+        Between 2011 and 2019, the median resource weight increased from ~100KB to ~400KB for desktop and ~50KB to
+        ~350KB for mobile. While Image size has increased from ~250KB to ~900KB on desktop and ~100KB to ~850KB on
+        mobile.</p>
+    <h3>What if I'm already using a third-party library or a script to lazy-load images?</h3>
+    <p>One of the important reasons to continue to use a third-party library along with loading="lazy" is to provide a
+        polyfill for browsers that do not yet support the attribute.</p>
+    <script src="index.js"></script>
+</body>
+
+</html>
