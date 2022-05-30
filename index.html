@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-success bg-opacity-25">
-    <div class="container my-5">
+    <div class="container mt-5">
         <h1 class="text-center">Lazy Loading</h1>
         <hr>
         <div class="alert alert-info" role="alert">
@@ -22,6 +22,23 @@
 
             Lazy loading can occur on different moments in the application, but it typically happens on some user
             interactions such as scrolling and navigation.
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center">Intersection Observer</h1>
+        <hr>
+        <div class="alert alert-info" role="alert">
+            In today’s world, a significant amount of transferred bytes can be accounted for images. This means that we
+            can gain the most on performance by optimizing them. Yet, most of the time these resources are kept hidden
+            and not even seen by visitors. Offscreen images are requested, but before they are scrolled into view, users
+            bounce off.
+
+            This is where lazy loading can help us. It defers the loading of offscreen images that are only requested
+            once they are in the viewport. This way, we can save precious bytes, reduce page load times, and potentially
+            save money for the visitor if they have a limited data plan. For this, we will use the Intersection Observer
+            API, which provides a way for us to detect if our target element is intersecting with either other elements
+            or the viewport.
         </div>
     </div>
 
@@ -83,6 +100,7 @@
             mobile.
         </div>
         <h3>What if I'm already using a third-party library or a script to lazy-load images?</h3>
+        <hr>
         <div class="alert alert-info" role="alert">
             One of the important reasons to continue to use a third-party library along with loading="lazy" is to
             provide
@@ -138,10 +156,10 @@
         </div>
     </div>
 
-    <script data-src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <script data-src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
