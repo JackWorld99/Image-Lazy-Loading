@@ -10,4 +10,8 @@
 
 ---
 
+![](image/demo.gif)
+
+---
+
 ### 👉 [Demo](https://jackworld99.github.io/ImageLazyLoading/index.html "Show index.html")
