@@ -14,4 +14,4 @@
 
 ---
 
-### 👉 [Demo](https://jackworld99.github.io/ImageLazyLoading/index.html "Show index.html")
+### 👉 [Demo](https://jackworld99.github.io/Image-Lazy-Loading/index.html "Show index.html")
